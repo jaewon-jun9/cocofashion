@@ -81,7 +81,29 @@ pip install scikit-image
 
 ___
 
-### 
+딥패션2 데이터 셋을 사용하기 위해서  coco형식으로 변환 필요
+
+evaluation 폴더 내의 deepfashion2_to_coco.py의 경로 정보를 수정해서 변환해야 함
+
+딥패션2의 트레인 폴더 내의 파일을 이용하려면 다음과 같은 수정이 필요
+
+```python
+sub_index = 0 # the index of ground truth instance
+for num in range(1,191961+1):
+    json_name = 'C:/home/cocofashion/dataset/train/annos/' + str(num).zfill(6)+'.json'
+    image_name = 'C:/home/cocofashion/dataset/train/image/' + str(num).zfill(6)+'.jpg'
+
+```
+
+```python
+json_name = 'C:/home/cocofashion/dataset/train/deepfashion2train10000.json'
+with open(json_name, 'w') as f:
+  json.dump(dataset, f)
+```
+
+
+
+
 
 
 
