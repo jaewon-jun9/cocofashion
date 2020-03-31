@@ -107,7 +107,7 @@ https://github.com/jaewon-jun9/cocofashion/blob/master/evaluation/deepfashion2_t
 
 딥패션 데모:
 
-[https://github.com/jaewon-jun9/cocoapi/blob/master/PythonAPI/demos/%EB%94%A5%ED%8C%A8%EC%85%982%20coco%20%EB%B3%80%ED%99%98%20%EB%8D%B0%EB%AA%A8.ipynb](https://github.com/jaewon-jun9/cocoapi/blob/master/PythonAPI/demos/딥패션2 coco 변환 데모.ipynb)
+[https://github.com/jaewon-jun9/cocofashion/blob/master/PythonAPI/demos/deepfashion2demo.ipynb](https://github.com/jaewon-jun9/cocoapi/blob/master/PythonAPI/demos/딥패션2coco변환 데모)
 
 
 
