@@ -110,9 +110,10 @@ https://github.com/jaewon-jun9/cocofashion/blob/master/evaluation/deepfashion2_t
 https://github.com/jaewon-jun9/cocofashion/blob/master/PythonAPI/demos/deepfashion2demo.ipynb
 
 
-
+```python
 # get all images containing given categories, select one at random
 catIds = coco.getCatIds(catNms=['short_sleeved_shirt','long_sleeved_shirt','long_sleeved_outwear','vest','sling','shorts','trousers', 'skirt', 'short_sleeved_dress', 'long_sleeved_dress', 'vest_dress', 'sling_dress']);
 imgIds = coco.getImgIds(catIds=catIds );
 imgIds = coco.getImgIds(imgIds = [18899])
 img = coco.loadImgs(imgIds[np.random.randint(0,len(imgIds))])[0]
+```
